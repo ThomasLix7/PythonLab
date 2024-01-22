@@ -91,7 +91,7 @@ draw_board(board)
 pygame.display.update()
 winsound.PlaySound('hope.wav',  winsound.SND_ASYNC)
 
-myfont = pygame.font.SysFont('monospace', 75)
+myfont = pygame.font.SysFont('monospace', 60)
 
 while not game_over:
     for event in pygame.event.get():
